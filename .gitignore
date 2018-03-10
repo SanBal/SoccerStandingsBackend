@@ -4,3 +4,6 @@
 # Eclipse project files
 .classpath
 .project
+
+# Maven
+target/
