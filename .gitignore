@@ -5,5 +5,5 @@
 .classpath
 .project
 
-# Maven
+# Maven, Tinylog
 target/
