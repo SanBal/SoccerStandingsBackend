@@ -17,6 +17,14 @@ public class User {
 	@Column(name = "username", unique = true)
 	private String username;
 
+	@Column(name = "password")
+	private String password;
+
+	public User(String username, String password) {
+		super();
+		this.username = username;
+	}
+
 	public String getUsername() {
 		return username;
 	}
