@@ -6,6 +6,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Represents an user of the SoccerStandings web application with his username
+ * and password.
+ * 
+ * @author Sanjeev
+ *
+ */
 @Entity
 public class User {
 
@@ -19,6 +26,12 @@ public class User {
 
 	@Column(name = "password")
 	private String password;
+
+	// Default constructor needed for Hibernate, which creates an empty object
+	// firstly and then sets properties with setters via reflection
+	public User() {
+		super();
+	}
 
 	public User(String username, String password) {
 		super();

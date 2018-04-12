@@ -7,6 +7,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.pmw.tinylog.Logger;
 
+/**
+ * Provides CRUD services using Hibernate.
+ * 
+ * @author Sanjeev
+ *
+ */
 public class DatabaseService {
 
 	private static SessionFactory sessionFactory;
