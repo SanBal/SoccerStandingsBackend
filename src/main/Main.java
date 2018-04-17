@@ -11,6 +11,7 @@ public class Main {
 		//
 		// DatabaseService.insertEntity(user);
 		// DatabaseService.getSessionFactory().close();
+
 		SpringApplication.run(Main.class);
 	}
 }

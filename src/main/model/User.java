@@ -36,6 +36,11 @@ public class User {
 	public User(String username, String password) {
 		super();
 		this.username = username;
+		this.password = password;
+	}
+
+	public int getId() {
+		return id;
 	}
 
 	public String getUsername() {
@@ -46,8 +51,12 @@ public class User {
 		this.username = username;
 	}
 
-	public int getId() {
-		return id;
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	@Override
