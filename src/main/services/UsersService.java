@@ -29,7 +29,7 @@ public class UsersService {
 	 * 
 	 * @return
 	 */
-	@GetMapping()
+	@GetMapping
 	public @ResponseBody Iterable<User> getUsers() {
 		return userRepository.findAll();
 	}
